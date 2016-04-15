@@ -1,0 +1,24 @@
+{
+    "name": "cfnpm",
+    "version": "1.0.0",
+    "description": "npm for cloud foundry, allow deployment of private local package to cloud foundry / bluemix / stackato",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "npm",
+        "cloud",
+        "foundry",
+        "bluemix",
+        "stackato",
+        "private",
+        "local"
+    ],
+    "dependencies": {
+        "genery": "0.1.7",
+        "ncp": "2.0.0"
+    },
+    "author": "stephane chretien",
+    "license": "ISC"
+}
