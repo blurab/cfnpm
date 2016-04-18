@@ -71,8 +71,8 @@ function copyFromLocal(module) {
 }
 
 let readDependencies = function() {
-    let dependencies = fs.readFileSync('./private_package.json');
-    dependencies = JSON.parse(dependencies);
+    let packageJson = fs.readFileSync('./package.json');
+    let dependencies = JSON.parse(packageJson).privateDependencies;
     console.log('process private package ' + dependencies);
     return dependencies;
 }

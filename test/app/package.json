@@ -5,10 +5,13 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-         "postinstall":"node -e \"require('../../index')\""
+        "postinstall": "node -e \"require('../../index')\""
     },
     "dependencies": {
         "cfnpm": "../.."
+    },
+    "privateDependencies": {
+        "amodule": "../amodule"
     },
     "author": "",
     "license": "ISC"
