@@ -1,0 +1,5 @@
+---
+applications:
+- name:    app-cfnpm
+  host:    app-cfnpm
+  memory:  128M

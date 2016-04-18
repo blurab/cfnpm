@@ -1,6 +1,6 @@
 {
     "name": "cfnpm",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "npm for cloud foundry, allow deployment of private local package to cloud foundry / bluemix / stackato",
     "main": "index.js",
     "scripts": {
@@ -15,6 +15,13 @@
         "private",
         "local"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/blurab/cfnpm.git"
+    },
+    "bugs": {
+        "url": "https://github.com/blurab/issues"
+    },
     "dependencies": {
         "genery": "0.1.7",
         "ncp": "2.0.0"

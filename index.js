@@ -90,7 +90,7 @@ g(function * () {
     if (process.env.VCAP_APPLICATION === undefined) {
         console.log('********** DEVLOPMENT ***********')
         
-        // link private pqckqge
+        // link private packqge
         for (let name in dependencies) {
             yield copyFromLocal(name);
             yield exec('npm install ', dependencies[name]);
